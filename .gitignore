@@ -1,0 +1,8 @@
+###> firstkb/framework-bundle ###
+/vendor/
+/cache/
+/config/config.local.php
+###> firstkb/framework-bundle ###
+
+/.idea
+/composer.lock

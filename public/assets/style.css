@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #F5F8FA;
+    font-family: Arial, sans-serif;
+    border: 1px solid #D8DEE3;
+}
+
+.header {
+    background-color: #24292E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.content p {
+    margin: 0 0 10px 0;
+}
+
+.content a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #666;
+}

@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ced416d2f72a92e8b9c99c7fe3eeff84",
+    "packages": [
+        {
+            "name": "firstkb/framework-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firstkb/framework-bundle.git",
+                "reference": "b1ccecb153d52b797e8fad0d82ab82d3c9d7daac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firstkb/framework-bundle/zipball/b1ccecb153d52b797e8fad0d82ab82d3c9d7daac",
+                "reference": "b1ccecb153d52b797e8fad0d82ab82d3c9d7daac",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.1"
+            },
+            "default-branch": true,
+            "type": "firstkb-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Firstkb\\FrameworkBundle\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrii Koien",
+                    "email": "firstkb@gmail.com"
+                }
+            ],
+            "description": "LightWeight php framework firstKB",
+            "support": {
+                "source": "https://github.com/firstkb/framework-bundle/tree/master",
+                "issues": "https://github.com/firstkb/framework-bundle/issues"
+            },
+            "time": "2023-03-05T21:05:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "firstkb/framework-bundle": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

@@ -1,0 +1,42 @@
+{
+    "name": "firstkb/first-project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/firstkb/framework-bundle.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Andrii Koien",
+            "email": "firstkb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "firstkb/framework-bundle": "@dev",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "scripts": {
+        "auto-scripts": {
+            "clear-cache": "rm -rf cache/*",
+            "create-dev-dir": "mkdir -p cache/dev/",
+            "create-prod-dir": "mkdir -p cache/prod"
+        },
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
+        ]
+    }
+}
