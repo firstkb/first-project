@@ -12,7 +12,7 @@ Installation
 
 Clone the repository:
 ```
-git clone https://github.com/{your-github-username}/firstkb-project.git
+git clone https://github.com/firstkb/firstkb-project.git
 ```
 
 Install the dependencies:
